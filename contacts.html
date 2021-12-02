@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>You can contact me via the following methods</title>
+  </head>
+  <body>
+    <h1>My contact information</h1>
+    <ol>
+      <li>Cell phone: <strong>01028176568</strong></li>
+      <li><strong><a href="https://www.facebook.com/phuc.le.750331/">Facebook</a></strong></li>
+      <li>Gmail: <strong>mark15071995@gmail.com</strong></li>
+    </ol>
+  </body>
+  <h3>Contact me</h3>
+  <!--<form class="contact-me" action="index.html" method="post"> action="index.html means when we press the "submit" button,the browser will move to your html.index page (main page)-->
+  <form class="contact-me" action="mailto:mark15071995@gmail.com" method="post" enctype="text/plain">
+    <label for="username">Your name</label>
+    <input type="text" name="username" value="Input your name here"> <br>
+    <label for="email">Your email</label>
+    <input type="email" name="email" value="Input your email here"> <br>
+    <textarea name="message" rows="8" cols="80"></textarea>
+    <input type="submit">
+  </form>
+</html>
